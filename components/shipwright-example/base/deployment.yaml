@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: shipwright-example
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-user-workloads-stage/jkhelil-tenant/shipwright-example/shipwright-example@sha256:cc3aaf971e07eaa8dcce89cf50af7623f7cddb82c83323b1d19cfade01e354d7
         imagePullPolicy: Always
         name: container-image
         ports:
